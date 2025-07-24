@@ -8,6 +8,7 @@ A conversational AI assistant designed to help with questions related to maize w
 ✅ Clean and simple web interface with Gradio
 ✅ Helpful for warehouse managers, farmers, or agricultural consultants
 
+
 🛠️ Requirements
 Python 3.8+
 OpenAI Python SDK
@@ -15,13 +16,16 @@ Gradio
 OpenAI API Key
 Install the required packages:
 
+
 bash
 Copy code
 pip install openai gradio
 
 
+
 🔐 Setup
-Set your OpenAI API key as an environment variable:
+Set your OpenAI API key as an environment variable
+
 
 
 🧠 How It Works
