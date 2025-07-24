@@ -55,21 +55,6 @@ The app will launch in your browser at http://127.0.0.1:7860
 
 "How do I monitor maize inventory in a warehouse?"
 
-📂 Project Structure
-bash
-Copy code
-maize-warehouse-gpt/
-│
-├── app.py                 # Main application script
-├── README.md              # Project documentation
-📜 License
-This project is for educational or prototype use only. Please check OpenAI’s terms of use for API usage restrictions.
-
-Let me know if you'd like a version with extra badges, deployment guide (e.g., Hugging Face Spaces or Streamlit Cloud), or Docker support!
-
-
-
-
 
 #Ask ChatGPT
 
