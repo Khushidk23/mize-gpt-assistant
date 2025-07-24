@@ -1,4 +1,4 @@
-# mize-gpt-assistant⚡
+# maize-gpt-assistant⚡
 
 A conversational AI assistant designed to help with questions related to maize warehouse management — including storage conditions, pest control, moisture management, and inventory tracking. Built using Gradio and OpenAI's GPT models.
 
