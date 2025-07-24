@@ -1,69 +1,30 @@
-# maize-gpt-assistant⚡
+# 📦 Maize Warehouse GPT Assistant
 
-A conversational AI assistant designed to help with questions related to maize warehouse management — including storage conditions, pest control, moisture management, and inventory tracking. Built using Gradio and OpenAI's GPT models.
+A conversational AI assistant designed to answer questions related to maize warehouse management — such as storage practices, pest control, moisture levels, and inventory tracking. Built using **Gradio** and **OpenAI's GPT-3.5/4 API**.
 
-🚀 Features
-✅ Answers warehouse-related questions with expert-level guidance
-✅ Uses OpenAI's GPT-3.5 / GPT-4 via the new OpenAI SDK
-✅ Clean and simple web interface with Gradio
-✅ Helpful for warehouse managers, farmers, or agricultural consultants
+---
 
+## 🚀 Features
 
-🛠️ Requirements
-Python 3.8+
-OpenAI Python SDK
-Gradio
-OpenAI API Key
-Install the required packages:
+- ✅ Expert assistant for maize storage and warehouse questions  
+- ✅ OpenAI GPT model integration with the new OpenAI SDK  
+- ✅ Clean and responsive web interface using Gradio  
+- ✅ Easy to run locally  
 
+---
 
-bash
-Copy code
-pip install openai gradio
+## 🛠️ Tech Stack
 
+- [OpenAI Python SDK](https://pypi.org/project/openai/)
+- [Gradio](https://gradio.app/)
+- Python 3.8+
 
+---
 
-🔐 Setup
-Set your OpenAI API key as an environment variable
+## 🔐 Setup & Installation
 
+### 1. Clone the Repository
 
-
-🧠 How It Works
-A system prompt defines the assistant's domain expertise in maize warehouse management.
-
-The user provides a question.
-
-The assistant responds using the selected OpenAI model (e.g., gpt-3.5-turbo).
-
-Gradio provides an interactive UI for question-answering.
-
-🧪 Run the App
-bash
-Copy code
-python app.py
-Or if your code is saved in another filename:
-
-bash
-Copy code
-python your_script_name.py
-The app will launch in your browser at http://127.0.0.1:7860
-
-💬 Example Questions
-"How do I control weevils in stored maize?"
-
-"What is the ideal moisture content for maize storage?"
-
-"How do I monitor maize inventory in a warehouse?"
-
-
-#Ask ChatGPT
-
-metadata
-title: Maize Gpt Assistant
-emoji: ⚡
-colorFrom: yellow
-colorTo: gray
-sdk: gradio
-sdk_version: 5.35.0
-app_file: app.py
-pinned: false
+```bash
+git clone https://github.com/your-username/maize-warehouse-gpt.git
+cd maize-warehouse-gpt
