@@ -4,22 +4,15 @@ A conversational AI assistant designed to help with questions related to maize w
 
 🚀 Features
 ✅ Answers warehouse-related questions with expert-level guidance
-
 ✅ Uses OpenAI's GPT-3.5 / GPT-4 via the new OpenAI SDK
-
 ✅ Clean and simple web interface with Gradio
-
 ✅ Helpful for warehouse managers, farmers, or agricultural consultants
 
 🛠️ Requirements
 Python 3.8+
-
 OpenAI Python SDK
-
 Gradio
-
 OpenAI API Key
-
 Install the required packages:
 
 bash
@@ -30,21 +23,7 @@ pip install openai gradio
 🔐 Setup
 Set your OpenAI API key as an environment variable:
 
-Linux/macOS:
 
-bash
-Copy code
-export OPENAI_API_KEY="your-api-key"
-Windows (CMD):
-
-c
-Copy code
-set OPENAI_API_KEY=your-api-key
-(Alternatively, hardcode for quick testing – not recommended for production)
-
-python
-Copy code
-client = OpenAI(api_key="your-api-key")
 🧠 How It Works
 A system prompt defines the assistant's domain expertise in maize warehouse management.
 
@@ -88,22 +67,14 @@ Let me know if you'd like a version with extra badges, deployment guide (e.g., H
 
 
 
-Ask ChatGPT
+#Ask ChatGPT
 
 metadata
-
 title: Maize Gpt Assistant
-
 emoji: ⚡
-
 colorFrom: yellow
-
 colorTo: gray
-
 sdk: gradio
-
 sdk_version: 5.35.0
-
 app_file: app.py
-
 pinned: false
