@@ -26,5 +26,6 @@ A conversational AI assistant designed to answer questions related to maize ware
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/maize-warehouse-gpt.git
-cd maize-warehouse-gpt
+git clone https://github.com/Khushidk23/maize-gpt-assistant.git
+cd /maize-gpt-assistant
+
